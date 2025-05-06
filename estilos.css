@@ -1,61 +1,62 @@
-
 body {
-  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
   background-color: #ffffff;
   color: #333;
 }
 
+/* Header */
 header {
-  background-color: #f5a09e;
-  color: white;
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 2em;
 }
 
-header h1 {
-  font-size: 3rem;
-  margin: 0;
-  letter-spacing: 2px;
+.logo {
+  max-width: 200px;
+  height: auto;
 }
 
-main {
-  padding: 2rem;
+/* Hero */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-#canvas-container {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
+/* Productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+  padding: 3em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-#descripcion {
-  max-width: 800px;
-  margin: auto;
-  background-color: #fff3f2;
-  padding: 2rem;
-  border-radius: 12px;
+.producto {
   text-align: center;
 }
 
-.integrantes {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.persona img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 0.5rem;
+.producto h3 {
+  margin-top: 1em;
+  font-size: 1.2em;
 }
 
+.producto p {
+  font-weight: bold;
+  color: #f5a09e;
+}
+
+/* Footer */
 footer {
+  text-align: center;
+  padding: 2em;
   background-color: #f5a09e;
   color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
 }
