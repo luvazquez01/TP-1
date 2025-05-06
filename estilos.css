@@ -1,0 +1,61 @@
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #f5a09e;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 2rem;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+#descripcion {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff3f2;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.integrantes {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.persona img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #f5a09e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
